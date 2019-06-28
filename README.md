@@ -17,3 +17,12 @@ Also, the game uses "Secret State" to hide the action of another players before 
 To review the game and the code, you may directly click the button below. 
 
 [![Edit boardgameio-rps-local-multiplayer](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/consultchwong/rock-paper-scissors-demo/tree/master/?fontsize=14)
+
+## Install
+
+```
+$ git clone https://github.com/consultchwong/rock-paper-scissors-demo/
+$ cd rock-paper-scissors-demo
+$ npm install
+$ npm start
+```
