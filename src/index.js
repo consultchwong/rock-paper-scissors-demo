@@ -52,7 +52,10 @@ const useStyles = makeStyles(theme => ({
 const RPSClient = Client({
   game: RPS,
   board: RPSBoard,
-  multiplayer: { local: true }
+  //  multiplayer: { local: true }
+  multiplayer: {
+    server: "https://rock-paper-scissors-bgio-serv.herokuapp.com/"
+  }
 });
 
 export default function App() {
